@@ -1,4 +1,4 @@
-# Title: Calling structural variants in human genome data
+# Calling structural variants in human genome data
 
 Instructor: Eric Dawson
 

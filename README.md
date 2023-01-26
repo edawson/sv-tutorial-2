@@ -62,7 +62,7 @@ For BWA, install using: conda install -c bioconda bwa
 		sudo apt-get install gcc-9 g++-9
 		```
 	4. When prompted for a password, type “manager”; type “Y” if asked for permission to continue.
-	5. Tell linux to use G++ and GCC verison 9 as the default. **Note**: you may want to undo this sometimes, and it’s important to remember the default GCC version. You can find this by running gcc --version. **Note**: The order of the below command parameters (i.e., the bit after “--install” is: <link> <alias> <path> <priority>
+	5. Tell linux to use G++ and GCC verison 9 as the default. **Note**: you may want to undo this sometimes, and it’s important to remember the default GCC version. You can find this by running gcc --version. **Note**: The order of the below command parameters (i.e., the bit after “--install” is: `<link> <alias> <path> <priority>`
 
 		```bash
 		sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 0
